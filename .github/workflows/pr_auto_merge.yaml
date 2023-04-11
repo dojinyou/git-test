@@ -11,6 +11,5 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
           MERGE_LABELS: ""
-          MERGE_COMMIT_MESSAGE: "{pullRequest.title}({pullRequest.number})"
-          PULL_REQUEST: "2"
+          PULL_REQUEST: "5"
           LOG: "DEBUG"
